@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Halaman Planet</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .atas {
+            height: 50vh;
+            width: 100%;
+        }
+        .bawah {
+            display: flex;
+            height: 50vh;
+        }
+        .venus {
+            width: 30%;
+            border: 1px solid black;
+        }
+        .mars {
+            width: 70%;
+            border: 1px solid black;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="atas">
+        <iframe src="sun.html"></iframe>
+    </div>
+    <div class="bawah">
+        <div class="venus">
+            <iframe src="venus.html"></iframe>
+        </div>
+        <div class="mars">
+            <iframe src="mars.html"></iframe>
+        </div>
+    </div>
+</body>
+</html>
